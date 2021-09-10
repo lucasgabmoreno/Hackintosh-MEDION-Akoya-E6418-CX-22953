@@ -28,7 +28,7 @@ HDMI | &#45; | &#45; | &#45;
 SD Card Reader | &#45; | &#45; | &#45;
 ---
 ## Extra devices needed for installation
-* MacOS or Hackintosh: for creating installer
+* MacOS or Hackintosh PC: for creating installer
 * USB 2.0 Flash Drive 16 GB: for USB installer
 * USB Wifi Stick MacOS compatible: until Broadcom Wifi could be installed
 * USB Keyboard MacOS compatible: until PS2 Keyboard is installed
