@@ -5,12 +5,12 @@ Hardware | Model | Status | Changes
 ------------ | ------------- | --- | ---
 Device | MEDION Akoya E6418 MD99620 <br> CX 22953 | Working | &#45;
 Motherboard | Pegatron D15D | Working | &#45;
-Original OS | Windows 8.1 | Repalced | &#45;
+Original OS | Windows 8.1 | Replaced | &#45;
 Bits | x64 | Working | &#45;
 BIOS | UEFI | Working | &#45;
 Graphics | Intel HD Graphic 5500 (Broadwell) | Working | Patched
-Graphics | Graphics: NVIDIA GeForce 940M (Maxwell) | Not supported | &#45;
-Wifi & BT | RTL8723BE Realtek 802.11b/g/n | Replaced | &#45;
+Graphics | Graphics: NVIDIA GeForce 940M (Maxwell) | <a href="https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus">Not supported</a> | &#45;
+Wifi & BT | RTL8723BE Realtek 802.11b/g/n | <a href="https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets">Replaced</a> | &#45;
 Wifi & BT | Broadcom 802.11ac Network Adapter (BCM94352HMB) | Working | Patched
 Processor | Intel Core i5-5200U CPU @ 2.20GH | Working | Patched
 Sound | NVIDIA Virtual Audio Device (Wave Extensible) (WDM) | &#45; | &#45;
@@ -30,7 +30,7 @@ SD Card Reader | &#45; | &#45; | &#45;
 ## Extra devices needed for installation
 * MacOS or Hackintosh PC: for creating installer
 * USB 2.0 Flash Drive 16 GB: for USB installer
-* USB Wifi Stick MacOS compatible: until Broadcom Wifi could be installed
+* <a href="https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html">USB Wifi Stick MacOS compatible</a>: until Broadcom Wifi could be installed
 * USB Keyboard MacOS compatible: until PS2 Keyboard is installed
 * USB Mouse MacOS compatible: until PS2 Trackpad is installed
-* Wifi card MacOS compatible
+* <a href="https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets">Wifi card MacOS compatible</a>
