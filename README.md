@@ -15,7 +15,7 @@ Wifi & BT | Broadcom 802.11ac Network Adapter (BCM94352HMB) | Working | Patched
 Processor | Intel Core i5-5200U CPU @ 2.20GH | Working | Patched
 Sound | NVIDIA Virtual Audio Device (Wave Extensible) (WDM) | &#45; | &#45;
 Sound | Realtek High Definition Audio (ALC269 VC) | Working | Patched
-LAN | Realtek PCIe GBE Family Controller Realtek 8168 | Working | Patched
+LAN | Realtek PCIe GBE Family Controller Realtek RTL8168 | Working | Patched
 Monitor | CMN15BE 1366 x 768 @ 60 Hz 15.3 inches | Working | &#45;
 Webcam | Realtek Semiconductor Corp. 57da Built-In Video Camera | Working | &#45;
 Trackpad | ELAN etd042F | Working | Patched
@@ -34,3 +34,30 @@ SD Card Reader | &#45; | &#45; | &#45;
 * USB Keyboard MacOS compatible: until PS2 Keyboard is installed
 * USB Mouse MacOS compatible: until PS2 Trackpad is installed
 * <a href="https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets">Wifi card MacOS compatible</a>
+---
+## USB Stick Installer
+---
+## BIOS Settings
+---
+## Install
+---
+## ACPI - DSDT
+---
+## LAN - Ethernet Realtek RTL8168 
+---
+## PS2 - Keyboard & Trackpad
+---
+## Graphic card - Intel HD 5500
+---
+## Battery & USB
+---
+## Sensors
+---
+## Brightness
+---
+## Sound & Mic - Realtek ALC 269
+---
+## USB Mouse
+---
+## Credits
+* Thanks to XXXX for XXXX Method
