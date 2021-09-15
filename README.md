@@ -53,6 +53,8 @@ SD Card Reader | &#45; | &#45; | &#45;
 ---
 ## PS2 - Keyboard & Trackpad
 ---
+## Wifi & BT - BCM94352HMB
+---
 ## Graphic card - Intel HD 5500
 ---
 ## Battery & USB
