@@ -1,5 +1,5 @@
 # Hackintosh - MEDION Akoya E6418 aka CX 22953
-This is a guide with detail of creating a laptop MEDION Akoya E6418 MD99620 (aka CX 22953) Hackintosh Mojave (Clover)
+This is a guide with detail of creating a laptop MEDION Akoya E6418 MD99620 (aka CX 22953) Hackintosh Mojave (UEFI Clover)
 
 Hardware | Model | Status | Changes
 ------------ | ------------- | --- | ---
@@ -9,8 +9,8 @@ Original OS | Windows 8.1 | Replaced | &#45;
 Bits | x64 | Working | &#45;
 BIOS | UEFI | Working | &#45;
 Graphics | Intel HD Graphic 5500 (Broadwell) | Working | Patched
-Graphics | Graphics: NVIDIA GeForce 940M (Maxwell) | <a href="https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus">Not supported</a> | &#45;
-Wifi & BT | RTL8723BE Realtek 802.11b/g/n | <a href="https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets">Replaced</a> | &#45;
+Graphics | Graphics: NVIDIA GeForce 940M (Maxwell) | [Not supported](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus) | &#45;
+Wifi & BT | RTL8723BE Realtek 802.11b/g/n | [Replaced](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) | &#45;
 Wifi & BT | Broadcom 802.11ac Network Adapter (BCM94352HMB) | Working | Patched
 Processor | Intel Core i5-5200U CPU @ 2.20GH | Working | &#45;
 Sound | NVIDIA Virtual Audio Device (Wave Extensible) (WDM) | &#45; | &#45;
@@ -30,12 +30,17 @@ SD Card Reader | &#45; | &#45; | &#45;
 ## Extra devices needed for installation
 * MacOS or Hackintosh PC: for creating installer
 * USB 2.0 Flash Drive 16 GB: for USB installer
-* <a href="https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html">USB Wifi Stick MacOS compatible</a>: until Broadcom Wifi could be installed
+* [USB Wifi Stick MacOS compatible](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html): until Broadcom Wifi could be installed
 * USB Keyboard MacOS compatible: until PS2 Keyboard is installed
 * USB Mouse MacOS compatible: until PS2 Trackpad is installed
-* <a href="https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets">Wifi card MacOS compatible</a>
+* [Wifi card MacOS compatible](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets)
 ---
 ## USB Stick Installer
+1. With a Mackintosh or Hackintosh PC, download [MacOS Mojave installer](https://itunes.apple.com/us/app/macos-mojave/id1398502828?mt=12)
+2. Create an account in [tonymacx86](https://www.tonymacx86.com/)
+3. Sign in and download [Unibeast for Mojave](https://www.tonymacx86.com/resources/unibeast-9-3-0-mojave.449/)
+4. Open Unibeast and install Mojave with UEFI Clover into the 16 GB USB pendrive (if doesn't work, try another pendrive)
+
 ---
 ## BIOS Settings
 ---
@@ -60,4 +65,6 @@ SD Card Reader | &#45; | &#45; | &#45;
 ## USB Mouse
 ---
 ## Credits
-* Thanks to XXXX for XXXX Method
+* Thanks to [Diskmaker X creators](https://diskmakerx.com/) for [MacOS Installer](https://diskmakerx.com/download/) URLs
+* Thanks to [TonyMac creators](https://www.tonymacx86.com/) for [Unibeast](https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/) software
+* Thanks to [Dortania](https://dortania.github.io/) for [USB Wireless](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html), [Nvidia GPU](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus) and [Wireless chipset](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) documentation
