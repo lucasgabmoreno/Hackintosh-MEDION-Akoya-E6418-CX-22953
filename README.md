@@ -12,7 +12,7 @@ Graphics | Intel HD Graphic 5500 (Broadwell) | Working | Patched
 Graphics | Graphics: NVIDIA GeForce 940M (Maxwell) | <a href="https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus">Not supported</a> | &#45;
 Wifi & BT | RTL8723BE Realtek 802.11b/g/n | <a href="https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets">Replaced</a> | &#45;
 Wifi & BT | Broadcom 802.11ac Network Adapter (BCM94352HMB) | Working | Patched
-Processor | Intel Core i5-5200U CPU @ 2.20GH | Working | Patched
+Processor | Intel Core i5-5200U CPU @ 2.20GH | Working | &#45;
 Sound | NVIDIA Virtual Audio Device (Wave Extensible) (WDM) | &#45; | &#45;
 Sound | Realtek High Definition Audio (ALC269 VC) | Working | Patched
 LAN | Realtek PCIe GBE Family Controller Realtek RTL8168 | Working | Patched
