@@ -43,6 +43,7 @@ SD Card Reader | &#45; | &#45; | &#45;
 
 ---
 ## BIOS Settings
+1. Update your [BIOS](http://www1.medion.de/downloads/index.pl?op=detail&id=15384&type=treiber&lang=uk)
 ---
 ## Install
 ---
