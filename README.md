@@ -43,7 +43,20 @@ SD Card Reader | &#45; | &#45; | &#45;
 
 ---
 ## BIOS Settings
-1. Update your [BIOS](http://www1.medion.de/downloads/index.pl?op=detail&id=15384&type=treiber&lang=uk)
+1. Using Windows, update your BIOS with [official Medion BIOS updater](http://www1.medion.de/downloads/index.pl?op=detail&id=15384&type=treiber&lang=uk)
+2. Into the BIOS (turn on the computer and press F2) change settings to:
+* Intel Virtualization Technology : Enable
+* Legacy USB Suppor: Enable
+* USB Charger: Enable
+* TPM Device: Enable
+* Secure Boot: Disabled
+* Secure Boot Mode: Standard
+* Fast Boot: Disabled
+* CSM Support: Enabled
+* PXE Boot: Disabled
+* SATA Mode Selection: AHCI
+3. Press F10: Save & Exit
+
 ---
 ## Install
 ---
@@ -70,4 +83,4 @@ SD Card Reader | &#45; | &#45; | &#45;
 ## Credits
 * Thanks to [Diskmaker X creators](https://diskmakerx.com/) for [MacOS Installer](https://diskmakerx.com/download/) URLs
 * Thanks to [TonyMac creators](https://www.tonymacx86.com/) for [Unibeast](https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/) software
-* Thanks to [Dortania](https://dortania.github.io/) for [USB Wireless](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html), [Nvidia GPU](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus) and [Wireless chipset](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) documentation
+* Thanks to [Dortania](https://dortania.github.io/) for [USB Wireless](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html), [Nvidia GPU](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus), [Wireless chipset](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) and [BIOS settings](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings) documentation
