@@ -59,28 +59,52 @@ SD Card Reader | &#45; | &#45; | &#45;
 
 ---
 ## Install
+1. Turn off your PC and insert USB Stick Installer
+3. Turn on your PC and press F2 for boot menu, choose pendrive (UEFI) to boot and press Enter.
+5. In Clover menu, choose MacOS Installer
+6. Search MacOS Utilies and choose Disk Utility
+7. Erase the device where you will install MacOS
+* Name: MacOS
+* Format: AFPS
+* Scheme: GUID Partition Map
+8. Go back to MacOS Utilities and choose Installer
+9. Install MacOS
+
 ---
-## ACPI - DSDT
+## ACPI - DSDT (not needed)
+All fixed with [clover's config.plist](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/tree/main/CLOVER).
+
+[Patched DSDT.aml](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/tree/main/ACPI) and SSDT*.aml files not needed.
+
 ---
 ## LAN - Ethernet Realtek RTL8168 
+
 ---
 ## PS2 - Keyboard & Trackpad
 ---
 ## Wifi & BT - BCM94352HMB
 ---
 ## Graphic card - Intel HD 5500
+(created with [Rehabman's config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config))
+
 ---
 ## Battery & USB
+
 ---
 ## Sensors
+
 ---
 ## Brightness
+
 ---
 ## Sound & Mic - Realtek ALC 269
+
 ---
 ## USB Mouse
+
 ---
 ## Credits
 * Thanks to [Diskmaker X creators](https://diskmakerx.com/) for [MacOS Installer](https://diskmakerx.com/download/) URLs
 * Thanks to [TonyMac creators](https://www.tonymacx86.com/) for [Unibeast](https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/) software
 * Thanks to [Dortania](https://dortania.github.io/) for [USB Wireless](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html), [Nvidia GPU](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus), [Wireless chipset](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) and [BIOS settings](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings) documentation
+* Thanks to [Rehabman](https://github.com/RehabMan) for [HD5500 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config)
