@@ -78,7 +78,7 @@ All fixed with [clover's config.plist](https://github.com/lucasgabrielmoreno/Hac
 
 ---
 ## LAN - Ethernet Realtek RTL8168 
-1. Download and Install the [latest RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases) with a kext installer like Kext Utility
+1. Download and Install the [latest RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases) with a kext installer like [Kext Utility](https://noobsplanet.com/index.php?resources/kext-utility.126/)
 2. Reboot
 
 ---
@@ -106,13 +106,44 @@ All fixed with [clover's config.plist](https://github.com/lucasgabrielmoreno/Hac
 `sudo reboot`
 
 ---
+## LATAM(Latinoamerican) Windows Keyboard 
+
+---
+## Modifier keys for Windows Keyboard
+
+---
+## Alt-tab for Windows Keyboard
+
+
+---
 ## Wifi & BT - BCM94352HMB
+1. Download [BrcmPatchRAM last release](https://github.com/acidanthera/BrcmPatchRAM/releases)
+2. Download [Rehabman-PCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/RehabMan-FakePCIID-2018-1027.zip) (extract Release folder)
+3. Install only this kexts with a kext installer like [Kext Utility](https://noobsplanet.com/index.php?resources/kext-utility.126/)
+* BrcmFirmwareRepo.kext
+* BrcmPatchRAM.kext
+* BrcmPatchRAM2.kext
+* FakePCIID_Broadcom_WiFi.kext
+* FakePCIID.kext
+
+4. From EFI partition, open Clover/config.plist with [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.467/) and go to "Kernel and Kexts patches", and add:
+
+Name | Find | Replace
+------------ | ------------- | ---
+AirPortBrcm4360 | 81f952aa00007529 | 81f952aa00006690
 
 
+5. Open terminal and type:
+
+`sudo kextcache -i /`
+
+`sudo reboot`
 
 ---
 ## Graphic card - Intel HD 5500
 (created with [Rehabman's config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config))
+
+
 
 ---
 ## Battery & USB
@@ -134,6 +165,7 @@ All fixed with [clover's config.plist](https://github.com/lucasgabrielmoreno/Hac
 * Thanks to [Diskmaker X creators](https://diskmakerx.com/) for [MacOS Installer](https://diskmakerx.com/download/) URLs
 * Thanks to [TonyMac creators](https://www.tonymacx86.com/) for [Unibeast](https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/) software
 * Thanks to [Dortania](https://dortania.github.io/) for [USB Wireless](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html), [Nvidia GPU](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus), [Wireless chipset](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) and [BIOS settings](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings) documentation
-* Thanks to [Rehabman](https://github.com/RehabMan) for [HD5500 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [Voodoo PS2](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)
+* Thanks to [Rehabman](https://github.com/RehabMan) for [HD5500 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [Voodoo PS2](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/), [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/), 
 * Thanks to [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) for [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
-* Thanks to [Noobsplanet](https://www.youtube.com/channel/UCkVm046rV9hYsTkVX_u32FA) for [Keyboard PS2 Tutorial](https://youtu.be/EFSfNDdo1VE)
+* Thanks to [Noobsplanet](https://noobsplanet.com) for [Keyboard PS2 Tutorial](https://youtu.be/EFSfNDdo1VE)
+* Thanks to [Adidanthera](https://github.com/acidanthera) for [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)
