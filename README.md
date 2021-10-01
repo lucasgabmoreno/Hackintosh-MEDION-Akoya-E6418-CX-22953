@@ -78,11 +78,38 @@ All fixed with [clover's config.plist](https://github.com/lucasgabrielmoreno/Hac
 
 ---
 ## LAN - Ethernet Realtek RTL8168 
+1. Download and Install the [latest RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases) with a kext installer like Kext Utility
+2. Reboot
 
 ---
 ## PS2 - Keyboard & Trackpad
+1. Download [this version of Rehabman-Voodoo](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/RehabMan-Voodoo-2018-0506.zip)
+2. Extract and go to "Release" Folder. Replace VoodooPS2Controller.kext file with the [latest VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2/releases)
+3. Open terminal
+4. Type:
+
+`sudo su`
+
+6. Drag and drop "RehabMan-Voodoo-2018-0506" folder to terminal
+7. Type: 
+
+`sudo cp org.rehabman.voodoo.driver.Daemon.plist /Library/LaunchDaemons`
+
+`cd Release`
+
+`sudo cp -R VoodooPS2Controller.kext /System/Library/Extensions/`
+
+`sudo cp VoodooPS2Daemon /usr/bin`
+
+`sudo touch /System/Library/Extensions/ && sudo kextcache -u /`
+
+`sudo reboot`
+
 ---
 ## Wifi & BT - BCM94352HMB
+
+
+
 ---
 ## Graphic card - Intel HD 5500
 (created with [Rehabman's config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config))
@@ -107,4 +134,6 @@ All fixed with [clover's config.plist](https://github.com/lucasgabrielmoreno/Hac
 * Thanks to [Diskmaker X creators](https://diskmakerx.com/) for [MacOS Installer](https://diskmakerx.com/download/) URLs
 * Thanks to [TonyMac creators](https://www.tonymacx86.com/) for [Unibeast](https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/) software
 * Thanks to [Dortania](https://dortania.github.io/) for [USB Wireless](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html), [Nvidia GPU](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus), [Wireless chipset](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) and [BIOS settings](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings) documentation
-* Thanks to [Rehabman](https://github.com/RehabMan) for [HD5500 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config)
+* Thanks to [Rehabman](https://github.com/RehabMan) for [HD5500 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [Voodoo PS2](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/)
+* Thanks to [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) for [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
+* Thanks to [Noobsplanet](https://www.youtube.com/channel/UCkVm046rV9hYsTkVX_u32FA) for [Keyboard PS2 Tutorial](https://youtu.be/EFSfNDdo1VE)
