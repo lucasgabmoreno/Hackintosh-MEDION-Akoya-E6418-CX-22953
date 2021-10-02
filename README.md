@@ -71,6 +71,14 @@ SD Card Reader | &#45; | &#45; | &#45;
 9. Install MacOS
 
 ---
+## First Boot - Kernel Panic fix
+Into Clover menu:
+1. Find IntelGFX and set it as 0x12345678
+2. Find ACPI Patching and disable all
+
+Once MacOS starts: Into EFI partition open Clover/config.plist with [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.467/) and go to IntelGFX and set it as 0x12345678, ACPI Patching and disable all.
+
+---
 ## ACPI - DSDT (not needed)
 All fixed with [clover's config.plist](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/tree/main/CLOVER).
 
