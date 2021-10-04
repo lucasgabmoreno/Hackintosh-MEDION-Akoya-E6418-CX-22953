@@ -169,6 +169,16 @@ AirPortBrcm4360 | 81f952aa00007529 | 81f952aa00006690
 ## USB Mouse
 
 ---
+## Grub - Multiboot
+`menuentry "MacOS" {`
+
+`search --file --no-floppy --set=root /EFI/CLOVER/CLOVERX64.efi`
+
+`chainloader /EFI/CLOVER/CLOVERX64.efi`
+
+`}`
+
+---
 ## Credits
 * Thanks to [Diskmaker X creators](https://diskmakerx.com/) for [MacOS Installer](https://diskmakerx.com/download/) URLs
 * Thanks to [TonyMac creators](https://www.tonymacx86.com/) for [Unibeast](https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/) software
@@ -177,3 +187,5 @@ AirPortBrcm4360 | 81f952aa00007529 | 81f952aa00006690
 * Thanks to [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) for [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 * Thanks to [Noobsplanet](https://noobsplanet.com) for [Keyboard PS2 Tutorial](https://youtu.be/EFSfNDdo1VE)
 * Thanks to [Adidanthera](https://github.com/acidanthera) for [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)
+* Thanks to ]AIOBoot](https://www.aioboot.com) for [Grub config](https://www.aioboot.com/en/add-clover-to-grub/)
+
