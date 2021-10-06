@@ -123,14 +123,20 @@ All fixed with [clover's config.plist](https://github.com/lucasgabrielmoreno/Hac
 6. Set Folder > "Latam-Keyboard-master" into "System/Library/Keyboard Layouts/"
 7. Drag and drop "Latam_A_white.keylayout"(and every file) to Installed for Current User
 8. Reboot
-9. Keyboard > Input Sources > Remove all keyboard languajes that doesn't fit with yout laptop keyboard. If you can't remove some of them (like ISO Español) add more languajes and then remove all of them.
+9. Go to Keyboard > Input Sources > Remove all keyboard languajes that doesn't fit with yout laptop keyboard. If you can't remove some of them (like ISO Español) add more languajes and then remove all of them.
 
 ---
 ## Modifier keys for Windows Keyboard
+1. Go to Keyboard > Modifier Keys...
+2. Set
+* Caps Lock: Caps Lock
+* Control: Command
+* Option: Option
+* Command: Control
 
 ---
 ## Alt-tab for Windows Keyboard
-
+1. Download and Install [Alt-Tab](https://alt-tab-macos.netlify.app)
 
 ---
 ## Wifi & BT - BCM94352HMB
@@ -159,8 +165,6 @@ AirPortBrcm4360 | 81f952aa00007529 | 81f952aa00006690
 ---
 ## Graphic card - Intel HD 5500
 (created with [Rehabman's config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config))
-
-
 
 ---
 ## Battery & USB
@@ -199,3 +203,4 @@ AirPortBrcm4360 | 81f952aa00007529 | 81f952aa00006690
 * Thanks to [AIOBoot](https://www.aioboot.com) for [Grub config](https://www.aioboot.com/en/add-clover-to-grub/)
 * Thanks to [Neosergio](https://github.com/neosergio) for [Latam Keyboard](https://github.com/neosergio/Latam-Keyboard)
 * Thanks to [SIL Ls Dev](https://github.com/sillsdev) for [Ukelele](https://software.sil.org/ukelele/)
+* Thanks to [Lwouis](https://github.com/lwouis) for [Alt-Tab](https://alt-tab-macos.netlify.app)
