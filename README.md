@@ -115,6 +115,15 @@ All fixed with [clover's config.plist](https://github.com/lucasgabrielmoreno/Hac
 
 ---
 ## LATAM(Latinoamerican) Windows Keyboard 
+1. Download and Install [Ukelele](https://software.sil.org/ukelele/)
+2. Go to Latam Keyboard(https://github.com/neosergio/Latam-Keyboard) and download Code as Zip
+3. Copy zip folder content into "System/Library/Keyboard Layouts/" folder
+4. Open "Latam_A_white.keylayout" with Ukelele
+5. Fie > Install > Show Organizer
+6. Set Folder > "Latam-Keyboard-master" into "System/Library/Keyboard Layouts/"
+7. Drag and drop "Latam_A_white.keylayout"(and every file) to Installed for Current User
+8. Reboot
+9. Keyboard > Input Sources > Remove all keyboard languajes that doesn't fit with yout laptop keyboard. If you can't remove some of them (like ISO Español) add more languajes and then remove all of them.
 
 ---
 ## Modifier keys for Windows Keyboard
@@ -187,5 +196,6 @@ AirPortBrcm4360 | 81f952aa00007529 | 81f952aa00006690
 * Thanks to [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) for [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 * Thanks to [Noobsplanet](https://noobsplanet.com) for [Keyboard PS2 Tutorial](https://youtu.be/EFSfNDdo1VE)
 * Thanks to [Adidanthera](https://github.com/acidanthera) for [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)
-* Thanks to ]AIOBoot](https://www.aioboot.com) for [Grub config](https://www.aioboot.com/en/add-clover-to-grub/)
-
+* Thanks to [AIOBoot](https://www.aioboot.com) for [Grub config](https://www.aioboot.com/en/add-clover-to-grub/)
+* Thanks to [Neosergio](https://github.com/neosergio) for [Latam Keyboard](https://github.com/neosergio/Latam-Keyboard)
+* Thanks to [SIL Ls Dev](https://github.com/sillsdev) for [Ukelele](https://software.sil.org/ukelele/)
