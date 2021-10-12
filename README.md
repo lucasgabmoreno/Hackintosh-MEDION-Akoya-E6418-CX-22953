@@ -8,6 +8,7 @@ Motherboard | Pegatron D15D | Working | &#45;
 Original OS | Windows 8.1 | Replaced | &#45;
 Bits | x64 | Working | &#45;
 BIOS | UEFI | Working | &#45;
+ACPI - DSDT | &#45; | Working | Patched
 Graphics | Intel HD Graphic 5500 (Broadwell) | Working | Patched
 Graphics | Graphics: NVIDIA GeForce 940M (Maxwell) | [Not supported](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus) | &#45;
 Wifi & BT | RTL8723BE Realtek 802.11b/g/n | [Replaced](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) | &#45;
@@ -81,10 +82,14 @@ Once MacOS starts: Into EFI partition open Clover/config.plist with [Clover Conf
 * ACPI Patching: disable all.
 
 ---
-## ACPI - DSDT (not needed)
-All fixed with [clover's config.plist](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/tree/main/CLOVER).
+## ACPI - DSDT
+If you are an experienced developer, you can start with this [Patched DSDT.aml](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/tree/main/ACPI). Read [Dortania documentation](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-methods.html)
 
-[Patched DSDT.aml](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/tree/main/ACPI) and SSDT*.aml files not needed.
+If you are newbie (like me), you might burn your motherboard with developer methods. So better this way:
+1. Download [clover's config.plist](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/tree/main/CLOVER)
+2. Mount EFI partition with [EFI Mounter](https://www.tonymacx86.com/resources/efi-mounter-v3-1.447/)
+3. Go to EFI/CLOVER/ and replace config.plist with [this config.plis](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/blob/main/CLOVER/config.plist)
+4. Reboot
 
 ---
 ## LAN - Ethernet Realtek RTL8168 
@@ -166,7 +171,25 @@ AirPortBrcm4360 | 81f952aa00007529 | 81f952aa00006690
 
 ---
 ## Graphic card - Intel HD 5500
-(created with [Rehabman's config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config))
+1. You need ACPI - DSDT patched with Clover or .aml method.
+2. Download [Lilu](https://github.com/acidanthera/Lilu/releases) last release.
+3. Download [WatheverGreen](https://github.com/acidanthera/whatevergreen/releases) last release.
+4. Mount EFI partition with [EFI Mounter](https://www.tonymacx86.com/resources/efi-mounter-v3-1.447/)
+5. Go to this folder EFI/CLOVER/kexts/Other and paste Lilu and WatheverGreen kexts 
+6. From EFI partition, open Clover/config.plist with [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.467/) and go to:
+* Devices, set IntelGFX: 0x12345678
+* Graphics, set VRAM: 2400
+* Graphics, set Ig-platform-id: 0x16260006
+* Kernel and Kext Patches:
+
+Name | Find | Replace
+------------ | ------------- | ---
+AppleIntelSKLGraphicsFramebuffer| 8945C839C7764F | 8945C839C7EB4
+
+7. File > Save > Exit
+8. Open terminal
+`sudo kextcache -i /`
+9. Reboot
 
 ---
 ## Battery & USB
@@ -200,7 +223,7 @@ AirPortBrcm4360 | 81f952aa00007529 | 81f952aa00006690
 * Thanks to [Dortania](https://dortania.github.io/) for [USB Wireless](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html), [Nvidia GPU](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus), [Wireless chipset](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) and [BIOS settings](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings) documentation
 * Thanks to [Rehabman](https://github.com/RehabMan) for [HD5500 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [Voodoo PS2](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/), [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/), 
 * Thanks to [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) for [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
-* Thanks to [Noobsplanet](https://noobsplanet.com) for [Keyboard PS2 Tutorial](https://youtu.be/EFSfNDdo1VE)
+* Thanks to [Noobsplanet](https://noobsplanet.com) for [Keyboard PS2 Tutorial](https://youtu.be/EFSfNDdo1VE), [Graphic card tutorial](https://noobsplanet.com/index.php?threads/intel-hd-5300-5500-and-6000-graphics-fix-for-hackintosh.13/)
 * Thanks to [Adidanthera](https://github.com/acidanthera) for [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)
 * Thanks to [AIOBoot](https://www.aioboot.com) for [Grub config](https://www.aioboot.com/en/add-clover-to-grub/)
 * Thanks to [Neosergio](https://github.com/neosergio) for [Latam Keyboard](https://github.com/neosergio/Latam-Keyboard)
