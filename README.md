@@ -1,5 +1,5 @@
 # Hackintosh - MEDION Akoya E6418 aka CX 22953
-This is a guide with detail of creating a laptop MEDION Akoya E6418 MD99620 (aka CX 22953) Hackintosh Mojave (UEFI Clover)
+This a documentation for creating a laptop MEDION Akoya E6418 MD99620 (aka CX 22953) Hackintosh Mojave (UEFI Clover)
 
 Hardware | Model | Status | Changes
 ------------ | ------------- | --- | ---
