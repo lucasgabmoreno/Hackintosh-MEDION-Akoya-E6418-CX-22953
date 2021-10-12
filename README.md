@@ -203,6 +203,10 @@ AppleIntelSKLGraphicsFramebuffer| 8945C839C7764F | 8945C839C7EB4
 
 ---
 ## Sensors
+1. Download and install [Intel Powe Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html)
+2. Download and install [HWMonitorSMC2](https://github.com/CloverHackyColor/HWMonitorSMC2/releases) and activate options inside.
+3. Downlaod and install [HWSensors](https://sourceforge.net/projects/hwsensors/) but deactivating FakeSMC and all FakeSMC options.
+4. Reboot
 
 ---
 ## Brightness
