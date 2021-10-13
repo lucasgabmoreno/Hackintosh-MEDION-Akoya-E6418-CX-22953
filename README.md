@@ -188,7 +188,9 @@ AppleIntelSKLGraphicsFramebuffer| 8945C839C7764F | 8945C839C7EB4
 
 7. File > Save > Exit
 8. Open terminal
+
 `sudo kextcache -i /`
+
 9. Reboot
 
 ---
@@ -217,9 +219,27 @@ AppleIntelSKLGraphicsFramebuffer| 8945C839C7764F | 8945C839C7EB4
 
 ---
 ## Sound & Mic - Realtek ALC 269
+1. Download [AppleALC](https://github.com/acidanthera/AppleALC/releases) last release.
+2. Mount EFI partition with [EFI Mounter](https://www.tonymacx86.com/resources/efi-mounter-v3-1.447/)
+3. Go to this folder EFI/CLOVER/kexts/Other and paste AppleALC kext
+4. From EFI partition, open Clover/config.plist with [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.467/) and go to:
+* ACPI > DSDT > change B0D3 to HDAU > Disabled
+* ACPI > Fixes > FixHDA > NO
+* ACPI > Fixes > AddHDMI > NO
+* Devices > UseIntelHDMI > NO
+* Devices > Audio Inject > No
+* Devices > Audio Inject > ResetHDA
+* Boot > Arguments > + >alcid=35
+* Devices > Properties > PciRoot(0x0)/Pci(0x1B,0x0) > layout-id=35
+6. Reboot
 
 ---
 ## USB Mouse
+1. Open terminal
+
+`defaults write .GlobalPreferences com.apple.mouse.scaling -1`
+
+2. Install [Steel Series](https://ar.steelseries.com/engine)
 
 ---
 ## Grub - Multiboot
@@ -239,10 +259,11 @@ AppleIntelSKLGraphicsFramebuffer| 8945C839C7764F | 8945C839C7EB4
 * Thanks to [Rehabman](https://github.com/RehabMan) for [HD5500 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [Voodoo PS2](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/), [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/), [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
 * Thanks to [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) for [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 * Thanks to [Noobsplanet](https://noobsplanet.com) for [Keyboard PS2 Tutorial](https://youtu.be/EFSfNDdo1VE), [Graphic card tutorial](https://noobsplanet.com/index.php?threads/intel-hd-5300-5500-and-6000-graphics-fix-for-hackintosh.13/)
-* Thanks to [Adidanthera](https://github.com/acidanthera) for [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM), [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
+* Thanks to [Adidanthera](https://github.com/acidanthera) for [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [AppleALC](https://github.com/acidanthera/applealc/)
 * Thanks to [AIOBoot](https://www.aioboot.com) for [Grub config](https://www.aioboot.com/en/add-clover-to-grub/)
 * Thanks to [Neosergio](https://github.com/neosergio) for [Latam Keyboard](https://github.com/neosergio/Latam-Keyboard)
 * Thanks to [SIL Ls Dev](https://github.com/sillsdev) for [Ukelele](https://software.sil.org/ukelele/)
 * Thanks to [Lwouis](https://github.com/lwouis) for [Alt-Tab](https://alt-tab-macos.netlify.app)
 * Thanks to [IMHO Production](https://www.youtube.com/channel/UCyFSS3f8yn8aEv264lufdxg) for [Battery fix](https://www.youtube.com/watch?v=jvuIpX2MUCk) tutorial.
 * Thanks to [Femi Ojeyemi](https://www.youtube.com/channel/UCa0i_qRkhNK_f_4ODT2FWlw) for [Fix brightness tutorial](https://youtu.be/ZC0NHWc8ibE)
+* Thanks to [Isiko](https://www.isiko.de) for [Mouse tutorial](https://www.isiko.de/how-to-disable/)
