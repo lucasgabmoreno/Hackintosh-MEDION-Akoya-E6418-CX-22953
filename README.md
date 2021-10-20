@@ -267,3 +267,4 @@ AppleIntelSKLGraphicsFramebuffer| 8945C839C7764F | 8945C839C7EB4
 * Thanks to [IMHO Production](https://www.youtube.com/channel/UCyFSS3f8yn8aEv264lufdxg) for [Battery fix](https://www.youtube.com/watch?v=jvuIpX2MUCk) tutorial.
 * Thanks to [Femi Ojeyemi](https://www.youtube.com/channel/UCa0i_qRkhNK_f_4ODT2FWlw) for [Fix brightness tutorial](https://youtu.be/ZC0NHWc8ibE)
 * Thanks to [Isiko](https://www.isiko.de) for [Mouse tutorial](https://www.isiko.de/how-to-disable/)
+* Thanks to [Idea Visual Tech](https://www.youtube.com/channel/UC8na_DwV38HbfwDUMkdMpNQ) for [SSDT-DSDT Tutorial](https://youtu.be/iPX3oiBJZZc)
