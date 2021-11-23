@@ -38,9 +38,11 @@ SD Card Reader | &#45; | &#45; | &#45;
 ---
 ## USB Stick Installer
 1. With a Mackintosh or Hackintosh PC, download [MacOS Mojave installer](https://itunes.apple.com/us/app/macos-mojave/id1398502828?mt=12)
-2. Create an account in [tonymacx86](https://www.tonymacx86.com/)
-3. Sign in and download [Unibeast for Mojave](https://www.tonymacx86.com/resources/unibeast-9-3-0-mojave.449/)
-4. Open Unibeast and install Mojave with UEFI Clover into the 16 GB USB pendrive (if doesn't work, try another pendrive)
+3. Create an account in [tonymacx86](https://www.tonymacx86.com/)
+4. Sign in and download [Unibeast for Mojave](https://www.tonymacx86.com/resources/unibeast-9-3-0-mojave.449/)
+5. Go to [Diskmaker X](https://diskmakerx.com/download/) and download [Diskmaker for Mojave](http://diskmakerx.com/downloads/DiskMaker_X_803.dmg)
+6. First pass: Install and open Diskamaker X and create Mojave USB pendrive.
+7. Second pass: Open Unibeast and install Mojave with UEFI Clover into the USB pendrive.
 
 ---
 ## BIOS Settings
