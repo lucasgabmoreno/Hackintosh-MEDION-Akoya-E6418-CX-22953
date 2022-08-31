@@ -245,13 +245,12 @@ AppleIntelSKLGraphicsFramebuffer| 8945C839C7764F | 8945C839C7EB4
 
 ---
 ## Grub - Multiboot
-`menuentry "MacOS" {`
-
-`search --file --no-floppy --set=root /EFI/CLOVER/CLOVERX64.efi`
-
-`chainloader /EFI/CLOVER/CLOVERX64.efi`
-
-`}`
+```
+menuentry "MacOS" {
+search --file --no-floppy --set=root /EFI/CLOVER/CLOVERX64.efi
+chainloader /EFI/CLOVER/CLOVERX64.efi
+}
+```
 
 ---
 ## Credits
