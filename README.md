@@ -65,7 +65,7 @@ SD Card Reader | &#45; | &#45; | &#45;
 2. With a Mac or Hackintosh PC, download [MacOS Catalina installer](https://apps.apple.com/us/app/macos-catalina/id1466841314?mt=12)
 3. Sign into TonyMac and download [Unibeast for Catalina](https://www.tonymacx86.com/resources/unibeast-10-0-0-catalina.448/)
 4. Open Unibeast and install Catalina with UEFI Clover into the USB pendrive.
-5. Mount EFI partition, download and add [SSDT-EC-LAPTOP.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-LAPTOP.aml) into EFI/CLOVER/ACPI/patched
+5. Mount EFI partition, download and add [SSDT-EC-LAPTOP.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-LAPTOP.aml) into `EFI/CLOVER/ACPI/patched`
 
 ---
 ## Install
