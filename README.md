@@ -36,15 +36,6 @@ SD Card Reader | &#45; | &#45; | &#45;
 * USB Mouse MacOS compatible: until PS2 Trackpad is installed
 * [Wifi card MacOS compatible](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets)
 ---
-## USB Stick Installer
-1. With a Mackintosh or Hackintosh PC, download [MacOS Mojave installer](https://itunes.apple.com/us/app/macos-mojave/id1398502828?mt=12)
-3. Create an account in [tonymacx86](https://www.tonymacx86.com/)
-4. Sign in and download [Unibeast for Mojave](https://www.tonymacx86.com/resources/unibeast-9-3-0-mojave.449/)
-5. Go to [Diskmaker X](https://diskmakerx.com/download/) and download [Diskmaker for Mojave](http://diskmakerx.com/downloads/DiskMaker_X_803.dmg)
-6. First pass: Install and open Diskamaker X and create Mojave USB pendrive.
-7. Second pass: Open Unibeast and install Mojave with UEFI Clover into the USB pendrive.
-
----
 ## BIOS Settings
 1. Using Windows, update your BIOS with [official Medion BIOS updater](http://www1.medion.de/downloads/index.pl?op=detail&id=15384&type=treiber&lang=uk)
 2. Into the BIOS (turn on the computer and press F2) change settings to:
@@ -59,6 +50,22 @@ SD Card Reader | &#45; | &#45; | &#45;
 * PXE Boot: Disabled
 * SATA Mode Selection: AHCI
 3. Press F10: Save & Exit
+---
+## USB Stick Installer 
+1. Create an account in [tonymacx86](https://www.tonymacx86.com/)
+
+### Mojave
+2. With a Mac or Hackintosh PC, download [MacOS Mojave installer](https://apps.apple.com/us/app/macos-mojave/id1398502828?mt=12)
+3. Sign into TonyMac and download [Unibeast for Mojave](https://www.tonymacx86.com/resources/unibeast-9-3-0-mojave.449/)
+4. Go to [Diskmaker X](https://diskmakerx.com/download/) and download [Diskmaker for Mojave](http://diskmakerx.com/downloads/DiskMaker_X_803.dmg)
+5. First pass: Install and open Diskamaker X and create Mojave USB pendrive.
+6. Second pass: Open Unibeast and install Mojave with UEFI Clover into the USB pendrive.
+
+### Catalina 
+2. With a Mac or Hackintosh PC, download [MacOS Catalina installer](https://apps.apple.com/us/app/macos-catalina/id1466841314?mt=12)
+3. Sign into TonyMac and download [Unibeast for Catalina](https://www.tonymacx86.com/resources/unibeast-10-0-0-catalina.448/)
+4. Open Unibeast and install Catalina with UEFI Clover into the USB pendrive.
+5. Mount EFI partition, download and add [SSDT-EC-LAPTOP.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-LAPTOP.aml) into EFI/CLOVER/ACPI/patched
 
 ---
 ## Install
@@ -82,16 +89,6 @@ Into Clover menu:
 Once MacOS starts: Into EFI partition open Clover/config.plist with [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.467/):
 * IntelGFX: 0x12345678
 * ACPI Patching: disable all.
-
----
-## ACPI - DSDT
-If you are an experienced developer, you can start with this [Patched DSDT.aml](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/tree/main/ACPI). Read [Dortania documentation](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-methods.html)
-
-If you are newbie (like me), you might burn your motherboard with developer methods. So better this way:
-1. Download [clover's config.plist](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/tree/main/CLOVER)
-2. Mount EFI partition with [EFI Mounter](https://www.tonymacx86.com/resources/efi-mounter-v3-1.447/)
-3. Go to EFI/CLOVER/ and replace config.plist with [this config.plis](https://github.com/lucasgabrielmoreno/Hackintosh_-MEDIONAkoyaE6418_CX22953/blob/main/CLOVER/config.plist)
-4. Reboot
 
 ---
 ## LAN - Ethernet Realtek RTL8168 
@@ -173,12 +170,11 @@ AirPortBrcm4360 | 81f952aa00007529 | 81f952aa00006690
 
 ---
 ## Graphic card - Intel HD 5500
-1. You need ACPI - DSDT patched with Clover or .aml method.
-2. Download [Lilu](https://github.com/acidanthera/Lilu/releases) last release.
-3. Download [WatheverGreen](https://github.com/acidanthera/whatevergreen/releases) last release.
-4. Mount EFI partition with [EFI Mounter](https://www.tonymacx86.com/resources/efi-mounter-v3-1.447/)
-5. Go to this folder EFI/CLOVER/kexts/Other and paste Lilu and WatheverGreen kexts 
-6. From EFI partition, open Clover/config.plist with [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.467/) and go to:
+1. Download [Lilu](https://github.com/acidanthera/Lilu/releases) last release.
+2. Download [WatheverGreen](https://github.com/acidanthera/whatevergreen/releases) last release.
+3. Mount EFI partition with [EFI Mounter](https://www.tonymacx86.com/resources/efi-mounter-v3-1.447/)
+4. Go to this folder EFI/CLOVER/kexts/Other and paste Lilu and WatheverGreen kexts 
+5. From EFI partition, open Clover/config.plist with [Clover Configurator](https://www.tonymacx86.com/resources/clover-configurator.467/) and go to:
 * Devices, set IntelGFX: 0x12345678
 * Graphics, set VRAM: 2400
 * Graphics, set Ig-platform-id: 0x16260006
