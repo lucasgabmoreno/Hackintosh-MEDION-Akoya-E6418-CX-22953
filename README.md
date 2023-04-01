@@ -90,7 +90,7 @@ Creating a Hackintosh into MEDION Akoya E6418 MD99620 (aka CX 22953)
 * [Rehabman](https://github.com/RehabMan)
 * [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 * [Noobsplanet](https://noobsplanet.com)
-* [Adidanthera](https://github.com/acidanthera
+* [Adidanthera](https://github.com/acidanthera)
 * [AIOBoot](https://www.aioboot.com)
 * [Neosergio](https://github.com/neosergio)
 * [SIL Ls Dev](https://github.com/sillsdev)
