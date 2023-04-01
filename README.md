@@ -55,8 +55,8 @@ Creating a Hackintosh into MEDION Akoya E6418 MD99620 (aka CX 22953)
 
 ## Install
 
-[Mojave Clover](mojave.md)<br>
-[Big Sur OpenCore](bigsur.md)
+[Mojave - Clover](mojave.md)<br>
+[Big Sur - OpenCore](bigsur.md)
 
 ---
 
