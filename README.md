@@ -243,19 +243,21 @@ chainloader /EFI/CLOVER/CLOVERX64.efi
 ```
 
 ---
-## Credits
-* Thanks to [Diskmaker X creators](https://diskmakerx.com/) for [MacOS Installer](https://diskmakerx.com/download/) URLs
-* Thanks to [TonyMac creators](https://www.tonymacx86.com/) for [Unibeast](https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/) software
-* Thanks to [Dortania](https://dortania.github.io/) for [USB Wireless](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html), [Nvidia GPU](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus), [Wireless chipset](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) and [BIOS settings](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings) documentation
-* Thanks to [Rehabman](https://github.com/RehabMan) for [HD5500 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [Voodoo PS2](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/), [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/), [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
-* Thanks to [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) for [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
-* Thanks to [Noobsplanet](https://noobsplanet.com) for [Keyboard PS2 Tutorial](https://youtu.be/EFSfNDdo1VE), [Graphic card tutorial](https://noobsplanet.com/index.php?threads/intel-hd-5300-5500-and-6000-graphics-fix-for-hackintosh.13/)
-* Thanks to [Adidanthera](https://github.com/acidanthera) for [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [AppleALC](https://github.com/acidanthera/applealc/)
-* Thanks to [AIOBoot](https://www.aioboot.com) for [Grub config](https://www.aioboot.com/en/add-clover-to-grub/)
-* Thanks to [Neosergio](https://github.com/neosergio) for [Latam Keyboard](https://github.com/neosergio/Latam-Keyboard)
-* Thanks to [SIL Ls Dev](https://github.com/sillsdev) for [Ukelele](https://software.sil.org/ukelele/)
-* Thanks to [Lwouis](https://github.com/lwouis) for [Alt-Tab](https://alt-tab-macos.netlify.app)
-* Thanks to [IMHO Production](https://www.youtube.com/channel/UCyFSS3f8yn8aEv264lufdxg) for [Battery fix](https://www.youtube.com/watch?v=jvuIpX2MUCk) tutorial.
-* Thanks to [Femi Ojeyemi](https://www.youtube.com/channel/UCa0i_qRkhNK_f_4ODT2FWlw) for [Fix brightness tutorial](https://youtu.be/ZC0NHWc8ibE)
-* Thanks to [Isiko](https://www.isiko.de) for [Mouse tutorial](https://www.isiko.de/how-to-disable/)
-* Thanks to [Idea Visual Tech](https://www.youtube.com/channel/UC8na_DwV38HbfwDUMkdMpNQ) for [SSDT-DSDT Tutorial](https://youtu.be/iPX3oiBJZZc)
+## Thanks
+* [Diskmaker X creators MacOS Installer](https://diskmakerx.com/download/)
+* [TonyMac creators Unibeast](https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/)
+* [Dortania USB Wireless](https://dortania.github.io/)
+* [Rehabman](https://github.com/RehabMan) for [HD5500 config.plist](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [Voodoo PS2](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/), [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/), [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
+* [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X) for [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
+* [Noobsplanet](https://noobsplanet.com) for [Keyboard PS2 Tutorial](https://youtu.be/EFSfNDdo1VE), [Graphic card tutorial](https://noobsplanet.com/index.php?threads/intel-hd-5300-5500-and-6000-graphics-fix-for-hackintosh.13/)
+* [Adidanthera](https://github.com/acidanthera) for [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [AppleALC](https://github.com/acidanthera/applealc/)
+* [AIOBoot](https://www.aioboot.com) for [Grub config](https://www.aioboot.com/en/add-clover-to-grub/)
+* [Neosergio](https://github.com/neosergio) for [Latam Keyboard](https://github.com/neosergio/Latam-Keyboard)
+* [SIL Ls Dev](https://github.com/sillsdev) for [Ukelele](https://software.sil.org/ukelele/)
+* [Lwouis](https://github.com/lwouis) for [Alt-Tab](https://alt-tab-macos.netlify.app)
+* [IMHO Production](https://www.youtube.com/channel/UCyFSS3f8yn8aEv264lufdxg) for [Battery fix](https://www.youtube.com/watch?v=jvuIpX2MUCk) tutorial.
+* [Femi Ojeyemi](https://www.youtube.com/channel/UCa0i_qRkhNK_f_4ODT2FWlw) for [Fix brightness tutorial](https://youtu.be/ZC0NHWc8ibE)
+* [Isiko](https://www.isiko.de) for [Mouse tutorial](https://www.isiko.de/how-to-disable/)
+* [Idea Visual Tech](https://www.youtube.com/channel/UC8na_DwV38HbfwDUMkdMpNQ) for [SSDT-DSDT Tutorial](https://youtu.be/iPX3oiBJZZc)
+* [RidhaF Hackintosh Asus A455LB](https://github.com/RidhaAF/Hackintosh-Asus-A455LB)
+
