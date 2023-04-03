@@ -5,7 +5,7 @@ Creating a Hackintosh into MEDION Akoya E6418 MD99620 (aka CX 22953)
 - Intel Core i5-5200U CPU @ 2.20GH
 - Intel HD Graphic 5500: Broadwell
 - Broadcom 802.11ac Network Adapter: BCM94352HMB
-- Realtek High Definition Audio: ALC269 VC layout-id=35
+- Realtek High Definition Audio: ALC269 VC (alcid=35)
 - Realtek PCIe GBE Family Controller Realtek: RTL8168
 - CMN15BE 1366 x 768 @ 60 Hz 15.3 inches
 - Realtek Semiconductor Corp. 57da Built-In Video Camera
