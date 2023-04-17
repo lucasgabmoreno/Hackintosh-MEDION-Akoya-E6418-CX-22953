@@ -83,7 +83,7 @@ Creating a Hackintosh into MEDION Akoya E6418 MD99620 (aka CX 22953)
 
 ---
 
-## Thanks
+## References
 * [Diskmaker X](https://diskmakerx.com/download/)
 * [TonyMac](https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/)
 * [Dortania](https://dortania.github.io/)
@@ -99,4 +99,4 @@ Creating a Hackintosh into MEDION Akoya E6418 MD99620 (aka CX 22953)
 * [Femi Ojeyemi](https://youtu.be/ZC0NHWc8ibE)
 * [Idea Visual Tech](https://youtu.be/iPX3oiBJZZc)
 * [RidhaF](https://github.com/RidhaAF/Hackintosh-Asus-A455LB)
-
+* [Vejtarn](https://github.com/Vejtarn/Hackintosh-Asus-X555LJ-Monterey)
