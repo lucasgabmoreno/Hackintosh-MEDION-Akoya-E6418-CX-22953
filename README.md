@@ -1,8 +1,7 @@
 # Hackintosh - MEDION Akoya E6418 aka CX 22953
-Creating a Hackintosh into MEDION Akoya E6418 MD99620 (aka CX 22953)
 
 - OpenCore 0.8.8
-* MacOS Monterey
+- MacOS Monterey
 
 ### Working
 - Intel Core i5-5200U CPU @ 2.20GH
@@ -30,16 +29,18 @@ Creating a Hackintosh into MEDION Akoya E6418 MD99620 (aka CX 22953)
 ## BIOS Settings
 1. Using Windows, update your BIOS with [official Medion BIOS updater](http://www1.medion.de/downloads/index.pl?op=detail&id=15384&type=treiber&lang=uk)
 2. Into the BIOS (turn on the computer and press F2) change settings to:
-* Intel Virtualization Technology : Enable
-* Legacy USB Suppor: Enable
-* USB Charger: Enable
-* TPM Device: Enable
-* Secure Boot: Disabled
-* Secure Boot Mode: Standard
-* Fast Boot: Disabled
-* CSM Support: Enabled
-* PXE Boot: Disabled
-* SATA Mode Selection: AHCI
+| Var   | Status |
+|:---|:---|
+| Intel Virtualization Technology | Enable |
+| Legacy USB Support  Enable |
+| USB Charger | Disabled |
+| TPM Device | Disabled |
+| Secure Boot | Disabled|
+| Secure Boot Mode | Enable |
+| Fast Boot | Disabled |
+| CSM Support | Enabled |
+| PXE Boot | Disabled |
+| SATA Mode Selection | AHCI |
 3. Press F10: Save & Exit
 
 ---
