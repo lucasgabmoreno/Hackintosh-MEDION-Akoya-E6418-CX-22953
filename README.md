@@ -4,29 +4,21 @@
 - MacOS Monterey
 
 ### Working
-- Intel Core i5-5200U CPU @ 2.20GH
-- Intel HD Graphic 5500: Broadwell
-- Broadcom 802.11ac Network Adapter: BCM94352HMB
-- Realtek High Definition Audio: ALC269 VC (alcid=35)
-- Realtek PCIe GBE Family Controller Realtek: RTL8168
-- CMN15BE 1366 x 768 @ 60 Hz 15.3 inches
-- Realtek Semiconductor Corp. 57da Built-In Video Camera
-- Trackpad ELAN etd042F
-- Keyboard
-- Brightness
-- Battery status: D15 
-- Sensors:  Proccesors & Devices
-- USB: 2x3.0 & 2x2.0
-
+- iGPU Intel 5500 Broadwell
+- Wifi & BT Broadcom BCM94352HMB
+- Audio ALC269 VC (alcid=35)
+- LAN Realtek RTL8168
+- Trackpad & Keyboard
+- Brightness (keepsyms=1 debug=0x100 -wegnoegpu)
 
 ### Not Working
-- NVIDIA GeForce 940M (Maxwell): [Not supported](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus)
-- RTL8723BE Realtek 802.11b/g/n: [Replaced](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets)
+- dGPU NVIDIA 940M Maxwell: [Not supported](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus)
+- Wifi & BT Realtek RTL8723BE: [Replaced](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets)
 
 ---
 
 
-## BIOS Settings
+## BIOS
 1. Using Windows, update your BIOS with [official Medion BIOS updater](http://www1.medion.de/downloads/index.pl?op=detail&id=15384&type=treiber&lang=uk)
 2. Into the BIOS (turn on the computer and press F2) change settings to:
    
@@ -41,20 +33,13 @@
 
 ---
 
-## USB Stick Installer 
+## Installer 
 1. Download Monterey: https://apps.apple.com/us/app/macos-monterey/id1576738294?mt=12
 2. Open terminal:
 ```
 sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled
 ```
-3. Mount EFI partition and paste [Monterey OpenCore EFI](https://github.com/lucasgabmoreno/Hackintosh-MEDION-Akoya-E6418-CX-22953/tree/main/Monterey%20OpenCore%20EFI) content.
-
----
-
-## Install
-1. Boot USB and install
-2. Mount EFI partition and paste [Monterey OpenCore EFI](https://github.com/lucasgabmoreno/Hackintosh-MEDION-Akoya-E6418-CX-22953/tree/main/Monterey%20OpenCore%20EFI) content.
-
+3. Mount EFI partition and paste [Monterey OpenCore EFI](https://github.com/lucasgabmoreno/Hackintosh-MEDION-Akoya-E6418-CX-22953/tree/main/EFI) content.
 
 ---
 
