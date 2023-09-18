@@ -29,10 +29,11 @@
 ## BIOS Settings
 1. Using Windows, update your BIOS with [official Medion BIOS updater](http://www1.medion.de/downloads/index.pl?op=detail&id=15384&type=treiber&lang=uk)
 2. Into the BIOS (turn on the computer and press F2) change settings to:
+   
 | Var   | Status |
 |:---|:---|
 | Intel Virtualization Technology | Enable |
-| Legacy USB Support  Enable |
+| Legacy USB Support | Enable |
 | USB Charger | Disabled |
 | TPM Device | Disabled |
 | Secure Boot | Disabled|
@@ -41,6 +42,7 @@
 | CSM Support | Enabled |
 | PXE Boot | Disabled |
 | SATA Mode Selection | AHCI |
+
 3. Press F10: Save & Exit
 
 ---
@@ -52,6 +54,8 @@
 sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled
 ```
 3. Mount EFI partition and paste [Monterey OpenCore EFI](https://github.com/lucasgabmoreno/Hackintosh-MEDION-Akoya-E6418-CX-22953/tree/main/Monterey%20OpenCore%20EFI) content.
+
+---
 
 ## Install
 1. Boot USB and install
