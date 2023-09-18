@@ -1,5 +1,15 @@
 # Mojave Clover
 
+## Extra devices needed for installation
+* MacOS or Hackintosh PC: for creating installer
+* USB 2.0 Flash Drive 16 GB: for USB installer
+* [USB Wifi Stick MacOS compatible](https://dortania.github.io/Wireless-Buyers-Guide/types-of-wireless-card/usb.html): until Broadcom Wifi could be installed
+* USB Keyboard MacOS compatible: until PS2 Keyboard is installed
+* USB Mouse MacOS compatible: until PS2 Trackpad is installed
+* [Wifi card MacOS compatible](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets)
+
+---
+
 ## USB Stick Installer 
 1. Create an account in [tonymacx86](https://www.tonymacx86.com/)
 2. With a Mac or Hackintosh PC, download [MacOS Mojave installer](https://apps.apple.com/us/app/macos-mojave/id1398502828?mt=12)
@@ -170,6 +180,29 @@ AppleIntelSKLGraphicsFramebuffer| 8945C839C7764F | 8945C839C7EB4
 `defaults write .GlobalPreferences com.apple.mouse.scaling -1`
 
 2. Install [Steel Series](https://ar.steelseries.com/engine)
+
+---
+
+## Modifier keys for Windows Keyboard
+1. Go to Keyboard > Modifier Keys...
+2. Set
+* Caps Lock: Caps Lock
+* Control: Command
+* Option: Option
+* Command: Control
+
+---
+
+## Alt-tab for Windows Keyboard
+1. Download and Install [Alt-Tab](https://alt-tab-macos.netlify.app)
+
+---
+
+## Sensors
+1. Download and install [Intel Powe Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html)
+2. Download and install [HWMonitorSMC2](https://github.com/CloverHackyColor/HWMonitorSMC2/releases) and activate options inside.
+3. Downlaod and install [HWSensors](https://sourceforge.net/projects/hwsensors/) but deactivating FakeSMC and all FakeSMC options.
+4. Reboot
 
 ---
 
