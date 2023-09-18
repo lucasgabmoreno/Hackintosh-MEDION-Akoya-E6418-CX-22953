@@ -32,14 +32,8 @@
    
 | Var   | Status |
 |:---|:---|
-| Intel Virtualization Technology | Enable |
-| Legacy USB Support | Enable |
-| USB Charger | Disabled |
-| TPM Device | Disabled |
 | Secure Boot | Disabled|
-| Secure Boot Mode | Enable |
 | Fast Boot | Disabled |
-| CSM Support | Enabled |
 | PXE Boot | Disabled |
 | SATA Mode Selection | AHCI |
 
