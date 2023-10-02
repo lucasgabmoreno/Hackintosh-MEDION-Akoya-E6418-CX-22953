@@ -1,5 +1,7 @@
 # Hackintosh - MEDION Akoya E6418 aka CX 22953
 
+![screenshot](/screenshot.png "Screenshot")
+
 - OpenCore 0.8.8
 - MacOS Monterey
 
