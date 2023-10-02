@@ -14,9 +14,9 @@
 ### Not Working
 - dGPU NVIDIA 940M Maxwell: [Not supported](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html#native-nvidia-gpus)
 - Wifi & BT Realtek RTL8723BE: [Replaced](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets)
+- SMBUS: PCI0.D00C
 
 ---
-
 
 ## BIOS
 1. Using Windows, update your BIOS with [official Medion BIOS updater](http://www1.medion.de/downloads/index.pl?op=detail&id=15384&type=treiber&lang=uk)
