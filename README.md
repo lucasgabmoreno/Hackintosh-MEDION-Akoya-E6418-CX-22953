@@ -55,20 +55,6 @@ menuentry "MacOS" --class macosx {
 ---
 
 
-## References
-* [Diskmaker X](https://diskmakerx.com/download/)
-* [TonyMac](https://www.tonymacx86.com/resources/categories/tonymacx86-downloads.3/)
-* [Dortania](https://dortania.github.io/)
-* [Rehabman](https://github.com/RehabMan)
-* [Mieze](https://github.com/Mieze/RTL8111_driver_for_OS_X)
-* [Noobsplanet](https://noobsplanet.com)
-* [Adidanthera](https://github.com/acidanthera)
-* [AIOBoot](https://www.aioboot.com)
-* [Neosergio](https://github.com/neosergio)
-* [SIL Ls Dev](https://github.com/sillsdev)
-* [Lwouis](https://github.com/lwouis)
-* [IMHO Production](https://www.youtube.com/watch?v=jvuIpX2MUCk)
-* [Femi Ojeyemi](https://youtu.be/ZC0NHWc8ibE)
-* [Idea Visual Tech](https://youtu.be/iPX3oiBJZZc)
+## Credits
 * [RidhaF](https://github.com/RidhaAF/Hackintosh-Asus-A455LB)
 * [Vejtarn](https://github.com/Vejtarn/Hackintosh-Asus-X555LJ-Monterey)
