@@ -3,7 +3,7 @@
 ![screenshot](/screenshot.png "Screenshot")
 
 - OpenCore 0.8.8
-- MacOS Monterey
+- MacOS Yosemite ~ Monterey
 
 ### Working
 - iGPU Intel 5500 Broadwell
