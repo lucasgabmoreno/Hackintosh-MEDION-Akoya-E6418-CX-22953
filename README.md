@@ -8,7 +8,7 @@
 ### Working
 - iGPU Intel 5500 Broadwell
 - Wifi & BT Broadcom BCM94352HMB
-- Audio ALC269 VC (alcid=35)
+- Audio ALC269 VC ([alcid=35](https://github.com/lucasgabmoreno/Hackintosh-MEDION-Akoya-E6418-CX-22953/blob/main/layouts.md))
 - LAN Realtek RTL8168
 - Trackpad & Keyboard
 - Brightness (keepsyms=1 debug=0x100 -wegnoegpu)
